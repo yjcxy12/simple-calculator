@@ -5,7 +5,7 @@
 ## Getting started
 
 - Clone the repository
-- Run `yarn isntall`
+- Run `yarn install`
 - Run `yarn start`
 - The app should be visible in http://localhost:3000
 
