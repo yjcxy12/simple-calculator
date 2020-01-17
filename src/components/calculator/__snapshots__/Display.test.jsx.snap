@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots renders correctly 1`] = `
+<div
+  className="calculator-display"
+  data-testid="display"
+>
+  23.12
+</div>
+`;
+
+exports[`snapshots renders correctly if no value is provided 1`] = `
+<div
+  className="calculator-display"
+  data-testid="display"
+>
+  0
+</div>
+`;

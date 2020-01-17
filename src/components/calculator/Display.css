@@ -1,0 +1,14 @@
+.calculator-display {
+  background-color: white;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.7);
+  box-sizing: border-box;
+  color: #565151;
+  font-size: 42px;
+  font-weight: 200;
+  height: 10%;
+  line-height: 42px;
+  min-height:73px;
+  padding: 15px;
+  text-align: right;
+  width: 100%;
+}

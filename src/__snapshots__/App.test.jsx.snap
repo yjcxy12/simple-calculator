@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots renders correctly 1`] = `
+<div
+  className="app-container"
+>
+  <div
+    className="calculator-container"
+  >
+    <div
+      className="calculator-display"
+      data-testid="display"
+    >
+      0
+    </div>
+    <div
+      className="calculator-panel"
+    >
+      <ul
+        className="number-panel-container"
+      >
+        <li
+          className="calculator-button-container calculator-button-container--reset"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-reset"
+            onClick={[Function]}
+            type="button"
+          >
+            AC
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-7"
+            onClick={[Function]}
+            type="button"
+          >
+            7
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-8"
+            onClick={[Function]}
+            type="button"
+          >
+            8
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-9"
+            onClick={[Function]}
+            type="button"
+          >
+            9
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-4"
+            onClick={[Function]}
+            type="button"
+          >
+            4
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-5"
+            onClick={[Function]}
+            type="button"
+          >
+            5
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-6"
+            onClick={[Function]}
+            type="button"
+          >
+            6
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-1"
+            onClick={[Function]}
+            type="button"
+          >
+            1
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-2"
+            onClick={[Function]}
+            type="button"
+          >
+            2
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-3"
+            onClick={[Function]}
+            type="button"
+          >
+            3
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number calculator-button-container--0"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-0"
+            onClick={[Function]}
+            type="button"
+          >
+            0
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--number"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-."
+            onClick={[Function]}
+            type="button"
+          >
+            .
+          </button>
+        </li>
+      </ul>
+      <ul
+        className="operator-panel-container"
+      >
+        <li
+          className="calculator-button-container calculator-button-container--operator"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-equals"
+            onClick={[Function]}
+            type="button"
+          >
+            =
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--operator"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-plus"
+            onClick={[Function]}
+            type="button"
+          >
+            +
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--operator"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-minus"
+            onClick={[Function]}
+            type="button"
+          >
+            -
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--operator"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-multiply"
+            onClick={[Function]}
+            type="button"
+          >
+            ×
+          </button>
+        </li>
+        <li
+          className="calculator-button-container calculator-button-container--operator"
+        >
+          <button
+            className="calculator-button"
+            data-testid="calculator-button-divide"
+            onClick={[Function]}
+            type="button"
+          >
+            ÷
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

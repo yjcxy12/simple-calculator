@@ -1,0 +1,14 @@
+.operator-panel-container {
+  color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 25%;
+  height: 100%;
+}
+
+.calculator-button-container--operator {
+  background-color: #2fb7d3;
+}

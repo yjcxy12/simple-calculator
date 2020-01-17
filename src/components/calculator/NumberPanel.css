@@ -1,0 +1,24 @@
+.number-panel-container {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 75%;
+  height: 100%;
+}
+
+.calculator-button-container--number {
+  width: calc(33.33% - 2px);
+  background-color: rgba(256, 256, 256, 0.3);
+}
+
+.calculator-button-container--0 {
+  width: calc(66.66% - 2px);
+}
+
+.calculator-button-container--reset {
+  background-color: rgba(256, 256, 256, 0.1);
+  width: 100%;
+}
