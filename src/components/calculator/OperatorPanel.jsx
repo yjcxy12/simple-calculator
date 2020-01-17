@@ -43,12 +43,15 @@ export const OperatorPanel = ({ operators }) => {
   );
 
   const onEqualsClick = useCallback(() => {
-    const result = getResult({ cachedOperator, currentOperator, cachedNumber, currentNumber });
     if (currentOperator !== 'equals') {
+      const result = getResult({ cachedOperator, currentOperator, cachedNumber, currentNumber });
       setCachedNumber(currentNumber);
+      setCurrentNumber(result);
+    } else {
+      const result = getResult({ cachedOperator, currentOperator, cachedNumber: currentNumber, currentNumber: cachedNumber });
+      setCurrentNumber(result);
     }
     setCurrentOperator('equals');
-    setCurrentNumber(result);
     setShouldResetDisplay(true);
   }, [
     currentNumber,

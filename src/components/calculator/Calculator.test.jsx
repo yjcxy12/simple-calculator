@@ -94,6 +94,31 @@ describe('behaviour', () => {
     expect(queryByTestId('display')).toHaveTextContent(14);
   });
 
+  it('should handle consective equals button click after minus button', () => {
+    const { queryByTestId } = render(<Calculator />);
+
+    fireEvent.click(queryByTestId('calculator-button-2'));
+    expect(queryByTestId('display')).toHaveTextContent('2');
+
+    fireEvent.click(queryByTestId('calculator-button-minus'));
+    expect(queryByTestId('display')).toHaveTextContent('2');
+
+    fireEvent.click(queryByTestId('calculator-button-3'));
+    expect(queryByTestId('display')).toHaveTextContent('3');
+
+    fireEvent.click(queryByTestId('calculator-button-equals'));
+    expect(queryByTestId('display')).toHaveTextContent(-1);
+
+    fireEvent.click(queryByTestId('calculator-button-equals'));
+    expect(queryByTestId('display')).toHaveTextContent(-4);
+
+    fireEvent.click(queryByTestId('calculator-button-equals'));
+    expect(queryByTestId('display')).toHaveTextContent(-7);
+
+    fireEvent.click(queryByTestId('calculator-button-equals'));
+    expect(queryByTestId('display')).toHaveTextContent(-10);
+  });
+
   it('should reset correctly', () => {
     const { queryByTestId } = render(<Calculator />);
 
